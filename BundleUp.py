@@ -5,7 +5,7 @@ import json
 import os
 
 # --- Google API Setup ---
-API_KEY = os.getenv('GEMINI_API_KEY', 'AIzaSyDUOFfF7_9Zz27THpNFO_bKAvHXce13OgE')  # Replace with your actual key
+API_KEY = os.getenv('GEMINI_API_KEY', 'YOUR API KEY')  # Replace with your actual key
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-2.0-flash')
 
